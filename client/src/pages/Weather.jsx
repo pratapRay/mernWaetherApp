@@ -15,7 +15,7 @@ const Weather = () => {
 
   const callWeatherPage = async ()=>{
     try {
-      const res = await fetch('/getData',{
+      const res = await fetch('/api/getData',{
           method:'GET',
           headers:{
             Accept: 'application/json',

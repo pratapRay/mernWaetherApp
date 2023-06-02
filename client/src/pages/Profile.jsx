@@ -8,7 +8,7 @@ const Profile = ({isDarkMode}) => {
 
   const callProfilePage = async ()=>{
     try {
-      const res = await fetch('/getData',{
+      const res = await fetch('/api/getData',{
           method:'GET',
           headers:{
             Accept: 'application/json',
